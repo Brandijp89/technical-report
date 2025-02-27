@@ -9,7 +9,7 @@ Docstring are string literals that document a function, class, or module and usu
 ## 3. How to define `__init__` in a class object?
 The `__init__` method is a special method in Python classes that acts as a constructor. It initializes an instance of the class. Example:
 
-```python
+
 class Person:
     def __init__(self, name, age):
         self.name = name
@@ -22,14 +22,14 @@ To let functions fail gracefully, we use try-except blocks to prevent the progra
 Code Example:
 
 
-```python
+
 try:
     result = 10 / 0
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 
 
-```python
+
 ## 5. What’s a standard practice of a return statement?
 A return statement is used in functions to send back a result instead of printing it. A good practice is to return meaningful values rather than having functions print directly, making the function more reusable.
 
