@@ -9,7 +9,7 @@ Docstring are string literals that document a function, class, or module and usu
 ## 3. How to define `__init__` in a class object?
 The `__init__` method is a special method in Python classes that acts as a constructor. It initializes an instance of the class. Example:
 
-
+```python
 class Person:
     def __init__(self, name, age):
         self.name = name
